@@ -6,7 +6,7 @@
 
 body {
   font-family: sans-serif;
-  background-image: url("/perigo.png");
+  background-image: url("perigo.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

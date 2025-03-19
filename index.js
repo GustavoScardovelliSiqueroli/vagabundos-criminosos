@@ -11,7 +11,7 @@ async function fetchCraftar() {
   isLoading = true;
   let isLoadingImg = document.createElement("img");
   isLoadingImg.classList.add("loading");
-  isLoadingImg.src = "/loading.gif";
+  isLoadingImg.src = "loading.gif";
   container.appendChild(isLoadingImg);
 
   let response = await fetch("https://cataas.com/cat");
