@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-image: url("/perigo.png");
+  background-size: cover;
+  background-position: center;
+  /* Centraliza a imagem */
+  background-repeat: no-repeat;
+  /* Impede a repetição da imagem */
+
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  gap: 1rem;
+  padding: 0 1vw;
+  /* Faz a imagem cobrir toda a área */
+}
+
+.loading {
+  width: 20rem;
+  height: 20rem;
+  position: absolute;
+}
+
+.container button {
+  padding: 1rem;
+  border-radius: 1rem;
+  border: none;
+  background-color: black;
+  color: white;
+  font-size: 1.5rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.container button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+  scale: 1.05;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transition: all 0.2s ease-in-out;
+
+}
+
+.space {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  width: 60vw;
+  border: 1px solid black;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #e5cd00;
+  padding: 1rem;
+  height: 100%;
+  width: 25%;
+}
