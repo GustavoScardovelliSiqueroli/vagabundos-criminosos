@@ -22,7 +22,7 @@ h1 {
 .container {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   gap: 1rem;
   padding: 0 1rem;
@@ -88,6 +88,7 @@ img {
 @media (min-width: 768px) {
   .container {
     flex-direction: row;
+    justify-content: space-around;
   }
 
   .container button {
