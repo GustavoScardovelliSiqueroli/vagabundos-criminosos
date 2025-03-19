@@ -9,9 +9,7 @@ body {
   background-image: url("/perigo.png");
   background-size: cover;
   background-position: center;
-  /* Centraliza a imagem */
   background-repeat: no-repeat;
-  /* Impede a repetição da imagem */
 
 }
 
@@ -26,7 +24,6 @@ h1 {
   height: 100vh;
   gap: 1rem;
   padding: 0 1vw;
-  /* Faz a imagem cobrir toda a área */
 }
 
 .loading {
